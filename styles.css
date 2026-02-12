@@ -8,8 +8,8 @@
 /*Estilizar a barra de navegação*/
 .navbar
 {
-    background-color: #fff706;
-    color:rgb(14, 13, 13);
+    background-color: #ff1313be;
+    color: black    ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@
     padding: 0; /*Remover os preenchimentos internos*/
 }
 .navbar ul li a  {
-    color:rgb(254, 172, 29);
+    color: black; 
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -31,8 +31,8 @@
     transition: 0.4s;
 }
 .navbar ul li a:hover {
-    background-color: #ff9021ea;
-    color: #f6f6f6;
+    background-color: #ff2121ea;
+    color: #ffd504;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
     transform: translateY(-2px);
 }
@@ -84,11 +84,20 @@ box-shadow: 0px 10px 20px rgba(0,0,0,0.3); /*Adiciona uma sombra ao carrosel par
 
     /* Imagem 4: pula as três primeiras (75%) */
     #radio4:checked ~ .first { margin-left: -75%; }
+ 
+
+
+
+
+
+
+
+
 
     /* ESTILO DOS BOTÕES MANUAIS (BOLINHAS) */
     .nav-manual
     {
-        position: absolute; /* POSICIONAMENTO FIXO EM RELAÇÃO AO SLIDER */
+        position: relative; /* POSICIONAMENTO FIXO EM RELAÇÃO AO SLIDER */
         width: 800px; /* Mesma largura do slider */
         margin-top: 40px; /* Joga as bolinhas pra dentro da imagem */
         display:flex;
@@ -107,7 +116,13 @@ box-shadow: 0px 10px 20px rgba(0,0,0,0.3); /*Adiciona uma sombra ao carrosel par
         background-color: white; 
     }
 
-    .imagem{
-        border-radius: 20px;
-        border: 5px solid #fff;
-    }
+
+    /* ESTILIZAÇÃO DO RODAPÉ DA PÁGINA */
+.rodape-principal {
+    background-color:#ff2121;
+    color: #ffffffbe;
+    padding: 40px 0 20px 0;
+    margin-top: 50px;
+
+
+}
