@@ -1,4 +1,5 @@
-.galeria {
+*
+{
     margin: 0;
     /*Remover as margens padrão do navegador*/
     padding: 0;
@@ -6,11 +7,26 @@
     box-sizing: border-box;
     /*Garantem que as birdas não aumentem o tamanho dos elementos*/
     font-family: Arial, Helvetica, sans-serif;
+    color: #fffefc;
 }
+
+body {
+background-image: url('https://i.pinimg.com/originals/c5/5e/2f/c55e2f0e85f49c0a1a555ad6f84ef019.gif');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
 
 /*Estilizar a barra de navegação*/
 .navbar {
-    background-color: #ff1313be;
+    background-color: #1362ff6b;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -38,15 +54,15 @@
 }
 
 .navbar ul li a:hover {
-    background-color: #ff2121ea;
-    color: #ffd504;
+    background-color: #1362ff6b;
+    color: #fffefc;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
 }
 
 .Botones {
-    background-color: #ad3131;
-    color: #FFFFFF;
+    background-color: #495fff;
+    color: #10fcf5;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -54,8 +70,8 @@
 }
 
 .Botones:hover {
-    background-color: #ff2121ea;
-    color: #ffd504;
+    background-color: #3fdcf4ea;
+    color: #031cff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
 }
