@@ -91,7 +91,7 @@
 
 .slide-box {
     width: 25%;
-    transition: transform 0.6s;
+    transition: 0.6s;
     /*Tempo de animação de deslize entre as fotos*/
 }
 
@@ -126,20 +126,13 @@
 
 
 
-
-
-
-
-
-
-
 /* ESTILO DOS BOTÕES MANUAIS (BOLINHAS) */
 .nav-manual {
-    position: relative;
+    position: absolute;
     /* POSICIONAMENTO FIXO EM RELAÇÃO AO SLIDER */
     width: 800px;
     /* Mesma largura do slider */
-    margin-top: 40px;
+    margin-top: -40px;
     /* Joga as bolinhas pra dentro da imagem */
     display: flex;
     justify-content: center;
